@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Avatar } from '@/components/ui/avatar';
 import { useState } from 'react';
+import Link from 'next/link';
 
 interface Student {
     id: string;
@@ -62,9 +63,10 @@ export default function Search() {
             </div>
             <div className="mt-6 space-y-4">
                 {students.map((student) => (
-                    <div
+                    <Link
+                        href={`/dashboard/student/${student.id}`}
                         key={student.id}
-                        className="p-4 border rounded-lg hover:bg-gray-100 cursor-pointer flex items-center gap-4"
+                        className="p-4 border rounded-lg hover:bg-gray-100 cursor-pointer flex items-center gap-4 no-underline text-inherit"
                     >
                         <Avatar className="h-12 w-12">
                             <div className="bg-gray-200 h-full w-full flex items-center justify-center text-lg text-gray-600">
@@ -91,7 +93,7 @@ export default function Search() {
                                 {student.status}
                             </p>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
         </div>
