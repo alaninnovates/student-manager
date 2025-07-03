@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
+import { login, signup } from '@/lib/supabase/actions';
 
 export function LoginForm() {
     return (
@@ -17,6 +18,7 @@ export function LoginForm() {
                                 <Label htmlFor="email">Email</Label>
                                 <Input
                                     id="email"
+                                    name="email"
                                     type="email"
                                     placeholder="me@example.com"
                                     required
@@ -24,11 +26,19 @@ export function LoginForm() {
                             </div>
                             <div className="grid gap-3">
                                 <Label htmlFor="password">Password</Label>
-                                <Input id="password" type="password" required />
+                                <Input
+                                    id="password"
+                                    name="password"
+                                    type="password"
+                                    required
+                                />
                             </div>
                             <div className="flex flex-col gap-3">
-                                <Button type="submit" className="w-full">
+                                <Button formAction={login} className="w-full">
                                     Login
+                                </Button>
+                                <Button formAction={signup} className="w-full">
+                                    Create Account
                                 </Button>
                             </div>
                         </div>

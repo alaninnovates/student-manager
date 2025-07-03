@@ -4,7 +4,7 @@ export const routes = [
         url: '/dashboard/search',
     },
     {
-        title: 'Classes',
-        url: '/dashboard/classes',
+        title: 'Courses',
+        url: '/dashboard/courses',
     },
 ];

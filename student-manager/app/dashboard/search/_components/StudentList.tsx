@@ -9,8 +9,6 @@ export const StudentList = async ({ query }: { query: string }) => {
         .ilike('name', `%${query}%`)
         .limit(10);
 
-    console.log(students, query);
-
     if (error) {
         console.error('Error fetching students:', error);
         return <div>Error loading students.</div>;
