@@ -55,3 +55,25 @@ def insert_students():
 
 classes = json.load(open('classes.json', 'r'))
 students = json.load(open('students.json', 'r'))
+
+def insert_attendance():
+    attendance_data = []
+    for file in files:
+        with open(f'out/{file}', 'r') as f:
+            data = json.load(f)
+            class_id = next((c['id'] for c in classes if c['name'] == data['class_name']), None)
+            for student in data['students']:
+                student_id = next((s['id'] for s in students if s['name'] == student['name']), None)
+                if student_id is None or class_id is None:
+                    print('Error: Student or class not found for', student['name'], 'in', data['class_name'])
+                    exit(1)
+                attendance_data.append({
+                    'student_id': student_id,
+                    'class_id': class_id,
+                    'level': student['level'],
+                    'attended_statuses': student['attended_statuses'],
+                })
+    client.table('attendance').insert(attendance_data).execute()
+
+if __name__ == '__main__':
+    insert_attendance()
