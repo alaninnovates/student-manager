@@ -3,3 +3,5 @@ dist
 data
 out
 .env
+data-processing/classes.json
+data-processing/students.json
