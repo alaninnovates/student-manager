@@ -1,4 +1,4 @@
-import Search from './_components/Search';
+import Search from '@/components/Search';
 import { StudentList } from './_components/StudentList';
 
 export default async function Page(props: {

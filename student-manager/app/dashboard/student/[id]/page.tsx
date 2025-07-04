@@ -38,7 +38,6 @@ export default async function StudentPage({
         console.error('Error fetching student data:', error || attendanceError);
         return <div>Error loading student data.</div>;
     }
-    console.log(studentAttendance);
 
     const processedClasses = studentAttendance.map((attendance) => {
         interface AttendanceCounts {

@@ -7,3 +7,9 @@ export interface Student {
 }
 
 export type AttendedStatus = 'present' | 'late' | 'absent' | 'excused';
+
+export interface Course {
+    id: string;
+    name: string;
+    dates: string[];
+}
