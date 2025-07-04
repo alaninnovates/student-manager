@@ -5,3 +5,5 @@ export interface Student {
     parent_cells: string[];
     parent_emails: string[];
 }
+
+export type AttendedStatus = 'present' | 'late' | 'absent' | 'excused';

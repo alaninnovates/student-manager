@@ -1,48 +1,21 @@
 import Link from 'next/link';
 import { ProgressBar } from './_components/progress-bar';
+import { createClient } from '@/lib/supabase/server';
+import { AttendedStatus } from '@/lib/types';
 
-const studentInfo = {
-    name: 'John Doe',
-};
-
-const courses = [
-    {
-        id: '1',
-        name: 'Summer Session 4 Scratch',
-        startDate: new Date('2023-7-23'),
-        endDate: new Date('2023-7-27'),
-        attendance: {
-            present: 3,
-            late: 1,
-            absent: 1,
-        },
-        totalLessons: 5,
-    },
-    {
-        id: '2',
-        name: 'Fall Session 4 Roblox',
-        startDate: new Date('2023-10-13'),
-        endDate: new Date('2023-11-17'),
-        attendance: {
-            present: 6,
-            late: 0,
-            absent: 0,
-        },
-        totalLessons: 6,
-    },
-    {
-        id: '3',
-        name: 'Spring Session 4 JavaScript',
-        startDate: new Date('2024-3-14'),
-        endDate: new Date('2024-4-26'),
-        attendance: {
-            present: 3,
-            late: 0,
-            absent: 0,
-        },
-        totalLessons: 6,
-    },
-];
+interface Class {
+    id: string;
+    name: string;
+    startDate: Date;
+    endDate: Date;
+    attendance: {
+        present: number;
+        late: number;
+        absent: number;
+        excused: number;
+    };
+    totalLessons: number;
+}
 
 export default async function StudentPage({
     params,
@@ -50,20 +23,65 @@ export default async function StudentPage({
     params: Promise<{ id: string }>;
 }) {
     const { id } = await params;
+    const client = await createClient();
+    const { data: studentData, error } = await client
+        .from('students')
+        .select('id, name, grade, parent_cells, parent_emails')
+        .eq('id', id)
+        .single();
+    const { data: studentAttendance, error: attendanceError } = await client
+        .from('attendance')
+        .select('id, classes(id, name, dates), level, attended_statuses')
+        .eq('student_id', id);
+    if (error || attendanceError) {
+        console.error('Error fetching student data:', error || attendanceError);
+        return <div>Error loading student data.</div>;
+    }
+    console.log(studentAttendance);
+
+    const processedClasses = studentAttendance.map((attendance) => {
+        interface AttendanceCounts {
+            present: number;
+            late: number;
+            absent: number;
+            excused: number;
+        }
+
+        const attendanceCounts: AttendanceCounts =
+            attendance.attended_statuses.reduce(
+                (acc: AttendanceCounts, status: string) => {
+                    acc[status as AttendedStatus] =
+                        (acc[status as AttendedStatus] || 0) + 1;
+                    return acc;
+                },
+                { present: 0, late: 0, absent: 0, excused: 0 },
+            );
+
+        const classData = attendance.classes;
+        return {
+            id: classData.id,
+            name: classData.name,
+            startDate: new Date(classData.dates[0]),
+            endDate: new Date(classData.dates[classData.dates.length - 1]),
+            attendance: attendanceCounts,
+            totalLessons: classData.dates.length,
+        } as Class;
+    });
 
     return (
         <div className="flex flex-col min-h-screen w-full p-6">
             <h1 className="text-2xl font-bold mb-4">Student Dashboard</h1>
             <div className="mb-6">
                 <h2 className="text-xl font-semibold mb-2">
-                    {studentInfo.name}
+                    {studentData.name}
                 </h2>
                 <p className="text-sm text-gray-600">
-                    Total Courses Attended: {courses.length}
+                    Total Courses Attended:{' '}
+                    {Object.keys(processedClasses).length}
                 </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {courses.map((course) => (
+                {Object.values(processedClasses).map((course) => (
                     <Link
                         key={course.id}
                         href={`/dashboard/course/${course.id}`}
@@ -81,7 +99,8 @@ export default async function StudentPage({
                             <span>
                                 {course.attendance.present}/
                                 {course.attendance.late}/
-                                {course.attendance.absent}
+                                {course.attendance.absent +
+                                    course.attendance.excused}
                             </span>
                         </div>
                         <ProgressBar
