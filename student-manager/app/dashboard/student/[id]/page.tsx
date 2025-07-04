@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ProgressBar } from './_components/progress-bar';
 import { createClient } from '@/lib/supabase/server';
 import { AttendedStatus } from '@/lib/types';
+import { MailIcon, PhoneIcon } from 'lucide-react';
 
 interface Class {
     id: string;
@@ -71,14 +72,71 @@ export default async function StudentPage({
     return (
         <div className="flex flex-col min-h-screen w-full p-6">
             <h1 className="text-2xl font-bold mb-4">Student Dashboard</h1>
-            <div className="mb-6">
-                <h2 className="text-xl font-semibold mb-2">
-                    {studentData.name}
-                </h2>
-                <p className="text-sm text-gray-600">
-                    Total Courses Attended:{' '}
-                    {Object.keys(processedClasses).length}
-                </p>
+            <div className="mb-8">
+                <div className="flex justify-between items-start">
+                    <div>
+                        <h2 className="text-xl font-semibold mb-2">
+                            {studentData.name}
+                        </h2>
+                        <p className="text-sm text-gray-600 mb-4">
+                            Grade: {studentData.grade} • Courses:{' '}
+                            {processedClasses.length}
+                        </p>
+                    </div>
+                    <div className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                        Active Student
+                    </div>
+                </div>
+
+                <div className="mt-4 border-t pt-4">
+                    <h3 className="text-md font-medium mb-2">
+                        Parent Contact Information
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <p className="text-sm text-gray-500">
+                                Phone Numbers
+                            </p>
+                            {studentData.parent_cells?.map(
+                                (cell: string, i: number) => (
+                                    <p
+                                        key={i}
+                                        className="flex items-center gap-2"
+                                    >
+                                        <PhoneIcon className="h-4 w-4 text-gray-400" />
+                                        <a
+                                            href={`tel:${cell}`}
+                                            className="text-blue-600 hover:underline"
+                                        >
+                                            {cell}
+                                        </a>
+                                    </p>
+                                ),
+                            )}
+                        </div>
+                        <div>
+                            <p className="text-sm text-gray-500">
+                                Email Addresses
+                            </p>
+                            {studentData.parent_emails?.map(
+                                (email: string, i: number) => (
+                                    <p
+                                        key={i}
+                                        className="flex items-center gap-2"
+                                    >
+                                        <MailIcon className="h-4 w-4 text-gray-400" />
+                                        <a
+                                            href={`mailto:${email}`}
+                                            className="text-blue-600 hover:underline"
+                                        >
+                                            {email}
+                                        </a>
+                                    </p>
+                                ),
+                            )}
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {Object.values(processedClasses).map((course) => (
