@@ -56,56 +56,70 @@ export default async function CoursePage({
                             </TableHead>
                             <TableHead>Grade</TableHead>
                             <TableHead>Level</TableHead>
-                            {course.dates.map((date) => (
+                            {course.dates.map((date: string) => (
                                 <TableHead key={date}>{date}</TableHead>
                             ))}
                         </TableRow>
                     </TableHeader>
                     <TableBody>
-                        {students.map((student) => (
-                            <TableRow key={student.students.id}>
-                                <TableCell className="sticky left-0 bg-white">
-                                    <Link
-                                        href={`/dashboard/student/${student.students.id}`}
-                                        className="text-blue-600 hover:underline"
-                                    >
-                                        {student.students.name}
-                                    </Link>
-                                </TableCell>
-                                <TableCell>{student.students.grade}</TableCell>
-                                <TableCell
-                                    className={cn({
-                                        'bg-green-300':
-                                            student.level === 'beginner',
-                                        'bg-yellow-300':
-                                            student.level === 'intermediate',
-                                        'bg-red-300':
-                                            student.level === 'advanced',
-                                    })}
-                                >
-                                    {toTitleCase(student.level)}
-                                </TableCell>
-                                {student.attended_statuses.map(
-                                    (status, index) => (
-                                        <TableCell
-                                            key={index}
-                                            className={cn({
-                                                'bg-green-100':
-                                                    status === 'present',
-                                                'bg-yellow-100':
-                                                    status === 'late',
-                                                'bg-red-100':
-                                                    status === 'absent',
-                                                'bg-gray-100':
-                                                    status === 'excused',
-                                            })}
+                        {students.map((s) => {
+                            const student = s as unknown as {
+                                students: {
+                                    id: string;
+                                    name: string;
+                                    grade: string;
+                                };
+                                level: string;
+                                attended_statuses: string[];
+                            };
+                            return (
+                                <TableRow key={student.students.id}>
+                                    <TableCell className="sticky left-0 bg-white">
+                                        <Link
+                                            href={`/dashboard/student/${student.students.id}`}
+                                            className="text-blue-600 hover:underline"
                                         >
-                                            {toTitleCase(status)}
-                                        </TableCell>
-                                    ),
-                                )}
-                            </TableRow>
-                        ))}
+                                            {student.students.name}
+                                        </Link>
+                                    </TableCell>
+                                    <TableCell>
+                                        {student.students.grade}
+                                    </TableCell>
+                                    <TableCell
+                                        className={cn({
+                                            'bg-green-300':
+                                                student.level === 'beginner',
+                                            'bg-yellow-300':
+                                                student.level ===
+                                                'intermediate',
+                                            'bg-red-300':
+                                                student.level === 'advanced',
+                                        })}
+                                    >
+                                        {toTitleCase(student.level)}
+                                    </TableCell>
+                                    {student.attended_statuses.map(
+                                        (status: string, index: number) => (
+                                            <TableCell
+                                                key={index}
+                                                className={cn({
+                                                    'bg-green-100':
+                                                        status === 'present',
+                                                    'bg-yellow-100':
+                                                        status === 'late',
+                                                    'bg-red-100':
+                                                        status === 'absent',
+                                                    'bg-gray-100':
+                                                        status === 'excused',
+                                                })}
+                                            >
+                                                {toTitleCase(status)}
+                                            </TableCell>
+                                        ),
+                                    )}
+                                </TableRow>
+                            );
+                        })}
                     </TableBody>
                     <TableFooter>
                         <TableRow>

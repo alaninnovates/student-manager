@@ -57,7 +57,11 @@ export default async function StudentPage({
                 { present: 0, late: 0, absent: 0, excused: 0 },
             );
 
-        const classData = attendance.classes;
+        const classData = attendance.classes as unknown as {
+            id: string;
+            name: string;
+            dates: string[];
+        };
         return {
             id: classData.id,
             name: classData.name,

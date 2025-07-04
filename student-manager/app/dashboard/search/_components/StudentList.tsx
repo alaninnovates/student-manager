@@ -43,6 +43,7 @@ export const StudentList = async ({ query }: { query: string }) => {
             }
 
             const classDates = attendanceDetails
+                // @ts-expect-error - supabase types are not correct for single select
                 ?.flatMap((detail) => detail.classes?.dates || [])
                 .filter((date) => date)
                 .sort();
