@@ -11,6 +11,14 @@ def is_int(value):
     except ValueError:
         return False
 
+def get_grade(grade):
+    grade = str(grade).strip().lower()
+    if is_int(grade[0]):
+        return int(grade[0])
+    else:
+        return None
+
+
 def get_level(level):
     level = level.strip().lower()
     if level.startswith('beg'):
@@ -29,7 +37,7 @@ def process_attended_statuses(attended_statuses):
         status = status.strip().lower()
         if status.startswith('in'):
             new_statuses.append('present')
-        elif status.startswith('out'):
+        elif status.startswith('out') or status.startswith('abs'):
             new_statuses.append('absent')
         elif status.startswith('excused'):
             new_statuses.append('excused')
@@ -43,7 +51,9 @@ def process_attended_statuses(attended_statuses):
 for file in files:
     file_path = os.path.join('data', file)
     out_file_path = os.path.join('out', file + '.json')
-    df = pd.read_excel(file_path)
+    if not file_path.endswith('.xlsx'):
+        continue
+    df = pd.read_excel(file_path, engine='openpyxl')
     class_name = df.iloc[0, 0]
     print(class_name)
     class_dates = [pd.to_datetime(date).timestamp() for date in df.iloc[0, 6:]]
@@ -52,7 +62,7 @@ for file in files:
         if index == 0:
             continue
         name = row.iloc[1].strip().title()
-        grade = is_int(row.iloc[2]) and int(row.iloc[2]) or None
+        grade = get_grade(row.iloc[2])
         level = get_level(row.iloc[3])
         parent_cells = row.iloc[4]
         parent_email = row.iloc[5]
@@ -63,8 +73,8 @@ for file in files:
             'name': name,
             'grade': grade,
             'level': level,
-            'parent_cells': parent_cells,
-            'parent_email': parent_email,
+            'parent_cells': parent_cells if pd.notna(parent_cells) else None,
+            'parent_email': parent_email if pd.notna(parent_email) else None,
             'attended_statuses': attended_statuses
         })
     class_data = {

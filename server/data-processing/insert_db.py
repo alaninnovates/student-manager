@@ -26,22 +26,30 @@ def insert_classes():
                 'dates': [
                     datetime.fromtimestamp(date).strftime('%Y-%m-%d') for date in class_dates
                 ],
+                'organization': 1,
             })
     client.table('classes').insert(to_write).execute()
+
+classes = json.load(open('classes.json', 'r'))
+students = json.load(open('students.json', 'r'))
 
 def insert_students():
     student_metadata = []
     for file in files:
         with open(f'out/{file}', 'r') as f:
             data = json.load(f)
-            students = data['students']
-            for student in students:
+            for student in data['students']:
+                # print(student['name'])
+                if student['name'] in [s['name'] for s in students]:
+                    # print('continuing on', student['name'])
+                    continue
                 if student['name'] not in [s['name'] for s in student_metadata]:
                     student_metadata.append({
                         'name': student['name'],
                         'grade': student['grade'] if student['grade'] not in (None, float('nan')) else 0,
                         'parent_cells': [str(student['parent_cells'])] if not pd.isna(student['parent_cells']) else [],
                         'parent_emails': [student['parent_email']] if not pd.isna(student['parent_email']) else [],
+                        'organization': 1,
                     })
                 else:
                     for s in student_metadata:
@@ -53,9 +61,6 @@ def insert_students():
                             break
     client.table('students').insert(student_metadata).execute()
 
-classes = json.load(open('classes.json', 'r'))
-students = json.load(open('students.json', 'r'))
-
 def insert_attendance():
     attendance_data = []
     for file in files:
@@ -66,12 +71,14 @@ def insert_attendance():
                 student_id = next((s['id'] for s in students if s['name'] == student['name']), None)
                 if student_id is None or class_id is None:
                     print('Error: Student or class not found for', student['name'], 'in', data['class_name'])
+                    print('Student ID:', student_id, 'Class ID:', class_id)
                     exit(1)
                 attendance_data.append({
                     'student_id': student_id,
                     'class_id': class_id,
                     'level': student['level'],
                     'attended_statuses': student['attended_statuses'],
+                    'organization': 1,
                 })
     client.table('attendance').insert(attendance_data).execute()
 
