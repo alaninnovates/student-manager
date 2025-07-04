@@ -1,5 +1,6 @@
 import { createClient } from '@/lib/supabase/server';
 import { StudentCard } from './StudentCard';
+import { Student } from '@/lib/types';
 
 export const StudentList = async ({ query }: { query: string }) => {
     const client = await createClient();
@@ -14,12 +15,65 @@ export const StudentList = async ({ query }: { query: string }) => {
         return <div>Error loading students.</div>;
     }
 
-    return students.map((student) => (
+    if (!students || students.length === 0) {
+        return <div>No students found.</div>;
+    }
+
+    const processedStudents: (Student & {
+        joinDate: Date;
+        status: 'active' | 'inactive';
+    })[] = await Promise.all(
+        students.map(async (student) => {
+            const { data: attendanceDetails, error: attendanceError } =
+                await client
+                    .from('attendance')
+                    .select('classes(name, dates)')
+                    .eq('student_id', student.id);
+
+            if (attendanceError) {
+                console.error(
+                    'Error fetching attendance details:',
+                    attendanceError,
+                );
+                return {
+                    ...student,
+                    joinDate: new Date(),
+                    status: 'inactive' as const,
+                };
+            }
+
+            const classDates = attendanceDetails
+                ?.flatMap((detail) => detail.classes?.dates || [])
+                .filter((date) => date)
+                .sort();
+            const joinDate =
+                classDates?.length > 0 ? new Date(classDates[0]) : new Date();
+
+            const mostRecentDate =
+                classDates?.length > 0
+                    ? new Date(classDates[classDates.length - 1])
+                    : null;
+            const thirtyDaysAgo = new Date();
+            thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+            const status =
+                mostRecentDate && mostRecentDate > thirtyDaysAgo
+                    ? 'active'
+                    : 'inactive';
+
+            return {
+                ...student,
+                joinDate,
+                status,
+            };
+        }),
+    );
+
+    return processedStudents.map((student) => (
         <StudentCard
             key={student.id}
             student={student}
-            joinDate={new Date()}
-            status="active"
+            joinDate={student.joinDate}
+            status={student.status}
         />
     ));
 };
