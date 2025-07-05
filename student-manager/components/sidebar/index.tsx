@@ -3,6 +3,7 @@ import { SidebarAppInfo } from '@/components/sidebar/sidebar-app-info';
 import {
     Sidebar as CNSidebar,
     SidebarContent,
+    SidebarFooter,
     SidebarGroup,
     SidebarGroupContent,
     SidebarHeader,
@@ -13,6 +14,7 @@ import {
 } from '@/components/ui/sidebar';
 import { routes } from '@/lib/routes';
 import { usePathname } from 'next/navigation';
+import { SidebarAccountInfo } from './sidebar-account-info';
 
 export const Sidebar = () => {
     const pathname = usePathname();
@@ -40,6 +42,9 @@ export const Sidebar = () => {
                     </SidebarGroupContent>
                 </SidebarGroup>
             </SidebarContent>
+            <SidebarFooter>
+                <SidebarAccountInfo />
+            </SidebarFooter>
             <SidebarRail />
         </CNSidebar>
     );
