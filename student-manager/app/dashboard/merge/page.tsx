@@ -1,7 +1,7 @@
-import Search from '@/components/search/Search';
-import { StudentList } from '@/components/student/StudentList';
+import Search from '@/components/search';
+import { StudentList } from '@/components/student/student-list';
 import { Toaster } from 'sonner';
-import { ConfirmButton } from './_components/ConfirmButton';
+import { ConfirmButton } from './_components/confirm-button';
 
 export default async function MergePage(props: {
     searchParams?: Promise<{

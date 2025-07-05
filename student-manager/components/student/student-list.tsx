@@ -1,5 +1,5 @@
 import { createClient } from '@/lib/supabase/server';
-import { StudentCard } from './StudentCard';
+import { StudentCard } from './student-card';
 import { Student } from '@/lib/types';
 
 export const StudentList = async ({

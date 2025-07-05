@@ -1,5 +1,5 @@
 import { createClient } from '@/lib/supabase/server';
-import { CourseCard } from './CourseCard';
+import { CourseCard } from './course-card';
 
 export const CourseList = async ({
     query,

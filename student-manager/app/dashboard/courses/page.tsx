@@ -1,5 +1,5 @@
-import Search from '@/components/search/Search';
-import { CourseList } from './_components/CourseList';
+import Search from '@/components/search';
+import { CourseList } from './_components/course-list';
 
 export default async function Page(props: {
     searchParams?: Promise<{

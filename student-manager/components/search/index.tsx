@@ -5,8 +5,8 @@ import { Search as SearchIcon } from 'lucide-react';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import React from 'react';
 import { useDebouncedCallback } from 'use-debounce';
-import { DateFilter } from './filters/DateFilter';
-import { LimitFilter } from './filters/LimitFilter';
+import { DateFilter } from './filters/date-filter';
+import { LimitFilter } from './filters/limit-filter';
 
 const allFilters = {
     date: {
