@@ -43,6 +43,15 @@ export default async function CoursePage({
         return <div>Error loading student attendance.</div>;
     }
 
+    students.sort((a, b) => {
+        const levels = ['beginner', 'intermediate', 'advanced'];
+        return (
+            levels.indexOf(a.level) - levels.indexOf(b.level) ||
+            // @ts-expect-error bro supabase is dumb
+            a.students.name.localeCompare(b.students.name)
+        );
+    });
+
     return (
         <div className="flex flex-col min-h-screen w-full p-6">
             <h1 className="text-2xl font-bold mb-4">Course Dashboard</h1>
