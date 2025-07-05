@@ -2,7 +2,17 @@ import { createClient } from '@/lib/supabase/server';
 import { StudentCard } from './StudentCard';
 import { Student } from '@/lib/types';
 
-export const StudentList = async ({ query }: { query: string }) => {
+export const StudentList = async ({
+    query,
+    selectable,
+    selectName,
+    selected,
+}: {
+    query: string;
+    selectable?: boolean;
+    selectName?: string;
+    selected?: number;
+}) => {
     const client = await createClient();
     const { data: students, error } = await client
         .from('students')
@@ -75,6 +85,9 @@ export const StudentList = async ({ query }: { query: string }) => {
             student={student}
             joinDate={student.joinDate}
             status={student.status}
+            selectable={selectable}
+            selectName={selectName}
+            selected={selected === student.id}
         />
     ));
 };

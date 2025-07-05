@@ -1,5 +1,5 @@
 import Search from '@/components/search/Search';
-import { StudentList } from './_components/StudentList';
+import { StudentList } from '@/components/student/StudentList';
 
 export default async function Page(props: {
     searchParams?: Promise<{

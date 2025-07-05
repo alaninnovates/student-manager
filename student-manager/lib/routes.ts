@@ -7,4 +7,8 @@ export const routes = [
         title: 'Courses',
         url: '/dashboard/courses',
     },
+    {
+        title: 'Student Merger',
+        url: '/dashboard/merge',
+    },
 ];

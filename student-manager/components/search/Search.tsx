@@ -20,9 +20,11 @@ const allFilters = {
 };
 
 export default function Search({
+    name = 'query',
     placeholder,
     filters = [],
 }: {
+    name?: string;
     placeholder: string;
     filters?: { name: keyof typeof allFilters; id: string; text: string }[];
 }) {
@@ -34,9 +36,9 @@ export default function Search({
     const handleSearch = useDebouncedCallback((term) => {
         const params = new URLSearchParams(searchParams);
         if (term) {
-            params.set('query', term);
+            params.set(name, term);
         } else {
-            params.delete('query');
+            params.delete(name);
         }
         replace(`${pathname}?${params.toString()}`);
     }, 300);

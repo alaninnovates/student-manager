@@ -1,5 +1,5 @@
 export interface Student {
-    id: string;
+    id: number;
     name: string;
     grade: string;
     parent_cells: string[];
