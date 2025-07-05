@@ -1,6 +1,5 @@
 import Search from '@/components/search/Search';
 import { CourseList } from './_components/CourseList';
-import { DateFilter } from '@/components/search/filters/DateFilter';
 
 export default async function Page(props: {
     searchParams?: Promise<{

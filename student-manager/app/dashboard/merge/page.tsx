@@ -1,6 +1,6 @@
 import Search from '@/components/search/Search';
 import { StudentList } from '@/components/student/StudentList';
-import { toast, Toaster } from 'sonner';
+import { Toaster } from 'sonner';
 import { ConfirmButton } from './_components/ConfirmButton';
 
 export default async function MergePage(props: {
