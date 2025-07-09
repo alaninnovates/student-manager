@@ -1,0 +1,7294 @@
+[
+    {
+        "student_id": 816,
+        "class_id": 37,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 725,
+        "class_id": 37,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 638,
+        "class_id": 37,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 609,
+        "class_id": 37,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 830,
+        "class_id": 37,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": ["present", "late", "excused", "late", "excused"]
+    },
+    {
+        "student_id": 838,
+        "class_id": 37,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 708,
+        "class_id": 37,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 788,
+        "class_id": 37,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 647,
+        "class_id": 37,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 687,
+        "class_id": 37,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 601,
+        "class_id": 37,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 781,
+        "class_id": 37,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 595,
+        "class_id": 38,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 828,
+        "class_id": 38,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 565,
+        "class_id": 38,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 733,
+        "class_id": 38,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "late",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 790,
+        "class_id": 38,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 671,
+        "class_id": 38,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 571,
+        "class_id": 38,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "absent",
+            "excused",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 712,
+        "class_id": 38,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 642,
+        "class_id": 38,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 743,
+        "class_id": 38,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 601,
+        "class_id": 38,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 827,
+        "class_id": 38,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 768,
+        "class_id": 38,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "late",
+            "late"
+        ]
+    },
+    {
+        "student_id": 711,
+        "class_id": 38,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 594,
+        "class_id": 38,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 610,
+        "class_id": 39,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 820,
+        "class_id": 39,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "present",
+            "late",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 681,
+        "class_id": 39,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 630,
+        "class_id": 39,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 786,
+        "class_id": 39,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "absent",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 746,
+        "class_id": 39,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 632,
+        "class_id": 39,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 836,
+        "class_id": 39,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 679,
+        "class_id": 39,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 599,
+        "class_id": 39,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "absent",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 794,
+        "class_id": 39,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "excused",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 822,
+        "class_id": 39,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 739,
+        "class_id": 39,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "late",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 807,
+        "class_id": 39,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 770,
+        "class_id": 39,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 648,
+        "class_id": 40,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 720,
+        "class_id": 40,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": ["present", "present", "late", "late", "excused"]
+    },
+    {
+        "student_id": 833,
+        "class_id": 40,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 699,
+        "class_id": 40,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": ["absent", "absent", "present", "late", "present"]
+    },
+    {
+        "student_id": 664,
+        "class_id": 40,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 765,
+        "class_id": 40,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 595,
+        "class_id": 40,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 662,
+        "class_id": 40,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 602,
+        "class_id": 40,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 583,
+        "class_id": 40,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 614,
+        "class_id": 40,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 626,
+        "class_id": 40,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 659,
+        "class_id": 40,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": ["present", "present", "late", "present", "absent"]
+    },
+    {
+        "student_id": 651,
+        "class_id": 40,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 779,
+        "class_id": 40,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 716,
+        "class_id": 40,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 728,
+        "class_id": 40,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 751,
+        "class_id": 41,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 620,
+        "class_id": 41,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 746,
+        "class_id": 41,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 673,
+        "class_id": 41,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 788,
+        "class_id": 41,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "late",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 740,
+        "class_id": 41,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 679,
+        "class_id": 41,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 711,
+        "class_id": 41,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "late"
+        ]
+    },
+    {
+        "student_id": 842,
+        "class_id": 41,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 640,
+        "class_id": 41,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 804,
+        "class_id": 41,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 656,
+        "class_id": 41,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 735,
+        "class_id": 41,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 623,
+        "class_id": 41,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "late",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 832,
+        "class_id": 41,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 846,
+        "class_id": 41,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "late",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 603,
+        "class_id": 41,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 593,
+        "class_id": 41,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 781,
+        "class_id": 42,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 806,
+        "class_id": 42,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 574,
+        "class_id": 42,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 709,
+        "class_id": 42,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 690,
+        "class_id": 42,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 572,
+        "class_id": 42,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 559,
+        "class_id": 42,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "late",
+            "late"
+        ]
+    },
+    {
+        "student_id": 555,
+        "class_id": 42,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 835,
+        "class_id": 42,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "late",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 678,
+        "class_id": 42,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "absent",
+            "excused",
+            "present",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 816,
+        "class_id": 42,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "late",
+            "late"
+        ]
+    },
+    {
+        "student_id": 802,
+        "class_id": 42,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 740,
+        "class_id": 42,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 741,
+        "class_id": 42,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 677,
+        "class_id": 42,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 779,
+        "class_id": 42,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 633,
+        "class_id": 42,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 832,
+        "class_id": 42,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "late",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 825,
+        "class_id": 42,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 669,
+        "class_id": 42,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 828,
+        "class_id": 43,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 651,
+        "class_id": 43,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 604,
+        "class_id": 43,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 821,
+        "class_id": 43,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 751,
+        "class_id": 43,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 734,
+        "class_id": 43,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 595,
+        "class_id": 43,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 699,
+        "class_id": 43,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "excused",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 616,
+        "class_id": 43,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 614,
+        "class_id": 43,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 695,
+        "class_id": 43,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 783,
+        "class_id": 43,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 796,
+        "class_id": 43,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 830,
+        "class_id": 43,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 557,
+        "class_id": 44,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 552,
+        "class_id": 44,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused",
+            "late"
+        ]
+    },
+    {
+        "student_id": 731,
+        "class_id": 44,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 556,
+        "class_id": 44,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 672,
+        "class_id": 44,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "absent",
+            "late",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 603,
+        "class_id": 44,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 788,
+        "class_id": 44,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 616,
+        "class_id": 44,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 558,
+        "class_id": 44,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 714,
+        "class_id": 44,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 677,
+        "class_id": 44,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "excused",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 765,
+        "class_id": 45,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 831,
+        "class_id": 45,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 808,
+        "class_id": 45,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 592,
+        "class_id": 45,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 847,
+        "class_id": 45,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 561,
+        "class_id": 45,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 755,
+        "class_id": 45,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 582,
+        "class_id": 45,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "absent",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 846,
+        "class_id": 45,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 680,
+        "class_id": 45,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 698,
+        "class_id": 45,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": ["present", "late", "absent", "present", "present"]
+    },
+    {
+        "student_id": 737,
+        "class_id": 45,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 671,
+        "class_id": 45,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": ["late", "present", "present", "absent", "excused"]
+    },
+    {
+        "student_id": 683,
+        "class_id": 45,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 648,
+        "class_id": 45,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 814,
+        "class_id": 45,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 747,
+        "class_id": 45,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 646,
+        "class_id": 46,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 805,
+        "class_id": 46,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": ["present", "late", "present", "present", "absent"]
+    },
+    {
+        "student_id": 654,
+        "class_id": 46,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 597,
+        "class_id": 46,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 733,
+        "class_id": 46,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 823,
+        "class_id": 46,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 751,
+        "class_id": 46,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 715,
+        "class_id": 46,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 558,
+        "class_id": 46,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 792,
+        "class_id": 46,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 658,
+        "class_id": 46,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 668,
+        "class_id": 46,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": ["absent", "present", "late", "present", "present"]
+    },
+    {
+        "student_id": 638,
+        "class_id": 46,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 809,
+        "class_id": 46,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 601,
+        "class_id": 46,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 702,
+        "class_id": 46,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 756,
+        "class_id": 47,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "late",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 557,
+        "class_id": 47,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 677,
+        "class_id": 47,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 692,
+        "class_id": 47,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "absent",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 819,
+        "class_id": 47,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 724,
+        "class_id": 47,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 847,
+        "class_id": 47,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 794,
+        "class_id": 47,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 679,
+        "class_id": 47,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 591,
+        "class_id": 47,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "absent",
+            "late",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 685,
+        "class_id": 47,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 674,
+        "class_id": 47,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "late",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 624,
+        "class_id": 47,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 691,
+        "class_id": 47,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "excused",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 848,
+        "class_id": 47,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 746,
+        "class_id": 47,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "absent",
+            "excused",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 780,
+        "class_id": 47,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 570,
+        "class_id": 47,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 598,
+        "class_id": 47,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 688,
+        "class_id": 48,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 585,
+        "class_id": 48,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": ["late", "present", "present", "present", "late"]
+    },
+    {
+        "student_id": 653,
+        "class_id": 48,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 758,
+        "class_id": 48,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": ["present", "late", "present", "present", "absent"]
+    },
+    {
+        "student_id": 553,
+        "class_id": 48,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 652,
+        "class_id": 48,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 661,
+        "class_id": 48,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 790,
+        "class_id": 48,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": ["present", "late", "present", "present", "absent"]
+    },
+    {
+        "student_id": 575,
+        "class_id": 48,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": ["present", "present", "present", "late", "absent"]
+    },
+    {
+        "student_id": 776,
+        "class_id": 48,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 569,
+        "class_id": 49,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 761,
+        "class_id": 49,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 579,
+        "class_id": 49,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 791,
+        "class_id": 49,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 783,
+        "class_id": 49,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 794,
+        "class_id": 49,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 718,
+        "class_id": 49,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 812,
+        "class_id": 49,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 564,
+        "class_id": 49,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 581,
+        "class_id": 49,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 663,
+        "class_id": 49,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 735,
+        "class_id": 49,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 558,
+        "class_id": 49,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 652,
+        "class_id": 49,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 844,
+        "class_id": 49,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 744,
+        "class_id": 49,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "late",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 701,
+        "class_id": 49,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 846,
+        "class_id": 50,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 814,
+        "class_id": 50,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 721,
+        "class_id": 50,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 842,
+        "class_id": 50,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 709,
+        "class_id": 50,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 663,
+        "class_id": 50,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "late",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 578,
+        "class_id": 50,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 562,
+        "class_id": 50,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "absent",
+            "excused",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 833,
+        "class_id": 50,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 627,
+        "class_id": 50,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "late",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 658,
+        "class_id": 50,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 668,
+        "class_id": 50,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 624,
+        "class_id": 50,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 792,
+        "class_id": 51,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 811,
+        "class_id": 51,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 620,
+        "class_id": 51,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 825,
+        "class_id": 51,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 797,
+        "class_id": 51,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 660,
+        "class_id": 51,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "present",
+            "present",
+            "absent",
+            "late"
+        ]
+    },
+    {
+        "student_id": 687,
+        "class_id": 51,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "late",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 709,
+        "class_id": 51,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 585,
+        "class_id": 51,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "excused",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 577,
+        "class_id": 51,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 674,
+        "class_id": 52,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 698,
+        "class_id": 52,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 682,
+        "class_id": 52,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 678,
+        "class_id": 52,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 741,
+        "class_id": 52,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 591,
+        "class_id": 52,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 771,
+        "class_id": 52,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 665,
+        "class_id": 52,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "present",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 707,
+        "class_id": 52,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 819,
+        "class_id": 52,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 751,
+        "class_id": 52,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "late",
+            "late",
+            "present",
+            "late",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 638,
+        "class_id": 53,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 766,
+        "class_id": 53,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 824,
+        "class_id": 53,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 568,
+        "class_id": 53,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 706,
+        "class_id": 53,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "late",
+            "late"
+        ]
+    },
+    {
+        "student_id": 763,
+        "class_id": 53,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "late",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 701,
+        "class_id": 53,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 724,
+        "class_id": 53,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "excused",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 810,
+        "class_id": 53,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 596,
+        "class_id": 53,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 790,
+        "class_id": 53,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "late",
+            "late",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 572,
+        "class_id": 53,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 694,
+        "class_id": 53,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 664,
+        "class_id": 53,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 832,
+        "class_id": 54,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 606,
+        "class_id": 54,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 574,
+        "class_id": 54,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 765,
+        "class_id": 54,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 605,
+        "class_id": 54,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 751,
+        "class_id": 54,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 785,
+        "class_id": 54,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 622,
+        "class_id": 54,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 731,
+        "class_id": 54,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "late",
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 604,
+        "class_id": 54,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 813,
+        "class_id": 54,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 716,
+        "class_id": 54,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 699,
+        "class_id": 54,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 842,
+        "class_id": 54,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "present",
+            "excused",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 684,
+        "class_id": 54,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 576,
+        "class_id": 54,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 735,
+        "class_id": 54,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 728,
+        "class_id": 54,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 615,
+        "class_id": 54,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "late",
+            "absent",
+            "late"
+        ]
+    },
+    {
+        "student_id": 824,
+        "class_id": 55,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 614,
+        "class_id": 55,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 596,
+        "class_id": 55,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 678,
+        "class_id": 55,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "present",
+            "absent",
+            "late",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 660,
+        "class_id": 55,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 661,
+        "class_id": 55,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 668,
+        "class_id": 55,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 791,
+        "class_id": 55,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "excused",
+            "late"
+        ]
+    },
+    {
+        "student_id": 735,
+        "class_id": 55,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 645,
+        "class_id": 55,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 671,
+        "class_id": 55,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 562,
+        "class_id": 55,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "late",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 798,
+        "class_id": 55,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "late",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 774,
+        "class_id": 55,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 748,
+        "class_id": 55,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 809,
+        "class_id": 55,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 785,
+        "class_id": 55,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "excused",
+            "late",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 766,
+        "class_id": 55,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 554,
+        "class_id": 56,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 782,
+        "class_id": 56,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 621,
+        "class_id": 56,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 801,
+        "class_id": 56,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 831,
+        "class_id": 56,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 568,
+        "class_id": 56,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "late",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 829,
+        "class_id": 56,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "late",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 741,
+        "class_id": 56,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 822,
+        "class_id": 56,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 772,
+        "class_id": 56,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 556,
+        "class_id": 56,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 784,
+        "class_id": 56,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 614,
+        "class_id": 56,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 563,
+        "class_id": 56,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 617,
+        "class_id": 56,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 723,
+        "class_id": 56,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 752,
+        "class_id": 56,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 578,
+        "class_id": 57,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "absent",
+            "absent",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 792,
+        "class_id": 57,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 617,
+        "class_id": 57,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "absent",
+            "absent",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 703,
+        "class_id": 57,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "excused",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 796,
+        "class_id": 57,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 558,
+        "class_id": 57,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 837,
+        "class_id": 57,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "late",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 750,
+        "class_id": 57,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "late",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 823,
+        "class_id": 57,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 830,
+        "class_id": 57,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 582,
+        "class_id": 57,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "late",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 845,
+        "class_id": 57,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 738,
+        "class_id": 57,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "excused",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 609,
+        "class_id": 57,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 728,
+        "class_id": 57,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 755,
+        "class_id": 57,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 748,
+        "class_id": 57,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 772,
+        "class_id": 57,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 846,
+        "class_id": 57,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "excused",
+            "late",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 653,
+        "class_id": 58,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 821,
+        "class_id": 58,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "excused",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 620,
+        "class_id": 58,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "late",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 630,
+        "class_id": 58,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 769,
+        "class_id": 58,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 828,
+        "class_id": 58,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 779,
+        "class_id": 58,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 662,
+        "class_id": 58,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 595,
+        "class_id": 58,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 596,
+        "class_id": 58,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 676,
+        "class_id": 58,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "excused",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 762,
+        "class_id": 58,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 710,
+        "class_id": 58,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 838,
+        "class_id": 58,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 664,
+        "class_id": 58,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 792,
+        "class_id": 58,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 605,
+        "class_id": 59,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "absent",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 700,
+        "class_id": 59,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 735,
+        "class_id": 59,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 656,
+        "class_id": 59,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 586,
+        "class_id": 59,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 827,
+        "class_id": 59,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 784,
+        "class_id": 59,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "late",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 606,
+        "class_id": 59,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 639,
+        "class_id": 59,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 670,
+        "class_id": 59,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 679,
+        "class_id": 59,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 773,
+        "class_id": 59,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 836,
+        "class_id": 59,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 710,
+        "class_id": 59,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 584,
+        "class_id": 59,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 682,
+        "class_id": 59,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 582,
+        "class_id": 60,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 615,
+        "class_id": 60,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 805,
+        "class_id": 60,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 713,
+        "class_id": 60,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "late",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 710,
+        "class_id": 60,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 819,
+        "class_id": 60,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 727,
+        "class_id": 60,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 793,
+        "class_id": 60,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 621,
+        "class_id": 60,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 824,
+        "class_id": 60,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 656,
+        "class_id": 60,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "late"
+        ]
+    },
+    {
+        "student_id": 741,
+        "class_id": 60,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 830,
+        "class_id": 60,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "absent",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 765,
+        "class_id": 60,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 795,
+        "class_id": 60,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 701,
+        "class_id": 60,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 591,
+        "class_id": 60,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 652,
+        "class_id": 61,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 597,
+        "class_id": 61,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 734,
+        "class_id": 61,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 823,
+        "class_id": 61,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 756,
+        "class_id": 61,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 603,
+        "class_id": 61,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 714,
+        "class_id": 61,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 787,
+        "class_id": 61,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 722,
+        "class_id": 61,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "late",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 609,
+        "class_id": 61,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 796,
+        "class_id": 61,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 812,
+        "class_id": 62,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 769,
+        "class_id": 62,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "excused",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 609,
+        "class_id": 62,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 695,
+        "class_id": 62,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 675,
+        "class_id": 62,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 653,
+        "class_id": 62,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 666,
+        "class_id": 62,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 585,
+        "class_id": 62,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 719,
+        "class_id": 62,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 731,
+        "class_id": 62,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 820,
+        "class_id": 62,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 561,
+        "class_id": 62,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 833,
+        "class_id": 62,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "late",
+            "absent",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 709,
+        "class_id": 62,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 591,
+        "class_id": 62,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "excused",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 676,
+        "class_id": 62,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 659,
+        "class_id": 62,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 786,
+        "class_id": 63,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 624,
+        "class_id": 63,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 824,
+        "class_id": 63,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 666,
+        "class_id": 63,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 609,
+        "class_id": 63,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 678,
+        "class_id": 63,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": ["present", "late", "present", "present", "late"]
+    },
+    {
+        "student_id": 633,
+        "class_id": 63,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": ["late", "absent", "present", "present", "present"]
+    },
+    {
+        "student_id": 638,
+        "class_id": 63,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": ["excused", "present", "late", "absent", "late"]
+    },
+    {
+        "student_id": 793,
+        "class_id": 63,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 614,
+        "class_id": 63,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 635,
+        "class_id": 63,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 778,
+        "class_id": 63,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": ["present", "late", "late", "present", "present"]
+    },
+    {
+        "student_id": 846,
+        "class_id": 63,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": ["late", "present", "excused", "late", "absent"]
+    },
+    {
+        "student_id": 690,
+        "class_id": 63,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": ["present", "absent", "present", "present", "late"]
+    },
+    {
+        "student_id": 602,
+        "class_id": 63,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 720,
+        "class_id": 63,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 726,
+        "class_id": 63,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 756,
+        "class_id": 63,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 640,
+        "class_id": 64,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 724,
+        "class_id": 64,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "late",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 832,
+        "class_id": 64,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "excused",
+            "absent",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 606,
+        "class_id": 64,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 653,
+        "class_id": 64,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 696,
+        "class_id": 64,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 756,
+        "class_id": 64,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 656,
+        "class_id": 64,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 790,
+        "class_id": 64,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "late",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 552,
+        "class_id": 64,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 819,
+        "class_id": 64,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 723,
+        "class_id": 64,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 651,
+        "class_id": 64,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 577,
+        "class_id": 64,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 831,
+        "class_id": 64,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 765,
+        "class_id": 64,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 624,
+        "class_id": 64,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 817,
+        "class_id": 64,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 650,
+        "class_id": 64,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 670,
+        "class_id": 64,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 649,
+        "class_id": 65,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 793,
+        "class_id": 65,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 565,
+        "class_id": 65,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "late",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 575,
+        "class_id": 65,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 706,
+        "class_id": 65,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "excused",
+            "excused",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 740,
+        "class_id": 65,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 724,
+        "class_id": 65,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 823,
+        "class_id": 65,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 798,
+        "class_id": 65,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 786,
+        "class_id": 65,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 657,
+        "class_id": 65,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 634,
+        "class_id": 65,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 569,
+        "class_id": 65,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 659,
+        "class_id": 65,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "late",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 672,
+        "class_id": 66,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 841,
+        "class_id": 66,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 806,
+        "class_id": 66,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 781,
+        "class_id": 66,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "absent",
+            "late",
+            "present"
+        ]
+    },
+    {
+        "student_id": 556,
+        "class_id": 66,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 621,
+        "class_id": 66,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 639,
+        "class_id": 66,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 593,
+        "class_id": 66,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 827,
+        "class_id": 66,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 744,
+        "class_id": 66,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 809,
+        "class_id": 66,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "late",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 737,
+        "class_id": 66,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 805,
+        "class_id": 67,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 596,
+        "class_id": 67,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 719,
+        "class_id": 67,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "absent",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 834,
+        "class_id": 67,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 647,
+        "class_id": 67,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 555,
+        "class_id": 67,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "late",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 569,
+        "class_id": 67,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "late",
+            "late"
+        ]
+    },
+    {
+        "student_id": 816,
+        "class_id": 67,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 685,
+        "class_id": 67,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 793,
+        "class_id": 67,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 582,
+        "class_id": 67,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 830,
+        "class_id": 67,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 629,
+        "class_id": 67,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 840,
+        "class_id": 67,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 702,
+        "class_id": 67,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 561,
+        "class_id": 67,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "late",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 710,
+        "class_id": 67,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 736,
+        "class_id": 67,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "late",
+            "late",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 662,
+        "class_id": 67,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 804,
+        "class_id": 68,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 572,
+        "class_id": 68,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "absent",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 819,
+        "class_id": 68,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 588,
+        "class_id": 68,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 565,
+        "class_id": 68,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 720,
+        "class_id": 68,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "late",
+            "present",
+            "absent",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 830,
+        "class_id": 68,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 734,
+        "class_id": 68,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 663,
+        "class_id": 68,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present",
+            "excused"
+        ]
+    },
+    {
+        "student_id": 555,
+        "class_id": 68,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 571,
+        "class_id": 68,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "excused",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 606,
+        "class_id": 68,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 607,
+        "class_id": 68,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "excused",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 654,
+        "class_id": 68,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 593,
+        "class_id": 68,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 794,
+        "class_id": 68,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 724,
+        "class_id": 68,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 754,
+        "class_id": 69,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 578,
+        "class_id": 69,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 594,
+        "class_id": 69,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 622,
+        "class_id": 69,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "absent",
+            "excused",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 659,
+        "class_id": 69,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 774,
+        "class_id": 69,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 748,
+        "class_id": 69,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 804,
+        "class_id": 69,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 738,
+        "class_id": 69,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 683,
+        "class_id": 69,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "late",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 561,
+        "class_id": 69,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 829,
+        "class_id": 70,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 751,
+        "class_id": 70,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 785,
+        "class_id": 70,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 767,
+        "class_id": 70,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "absent",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 826,
+        "class_id": 70,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 686,
+        "class_id": 70,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 609,
+        "class_id": 70,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 624,
+        "class_id": 70,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 750,
+        "class_id": 70,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 675,
+        "class_id": 70,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 614,
+        "class_id": 70,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 646,
+        "class_id": 70,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "late",
+            "present",
+            "excused",
+            "present",
+            "late"
+        ]
+    },
+    {
+        "student_id": 805,
+        "class_id": 71,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 785,
+        "class_id": 71,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 600,
+        "class_id": 71,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "absent",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 626,
+        "class_id": 71,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "late",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 629,
+        "class_id": 71,
+        "organization": 2,
+        "level": "advanced",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 705,
+        "class_id": 71,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "late",
+            "present",
+            "absent"
+        ]
+    },
+    {
+        "student_id": 549,
+        "class_id": 71,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 825,
+        "class_id": 71,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "absent",
+            "present",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 791,
+        "class_id": 71,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "present",
+            "present",
+            "absent",
+            "present"
+        ]
+    },
+    {
+        "student_id": 751,
+        "class_id": 71,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "late",
+            "excused",
+            "present",
+            "present",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 679,
+        "class_id": 71,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "present",
+            "absent",
+            "excused",
+            "present",
+            "present"
+        ]
+    },
+    {
+        "student_id": 789,
+        "class_id": 71,
+        "organization": 2,
+        "level": "beginner",
+        "attended_statuses": [
+            "present",
+            "excused",
+            "present",
+            "present",
+            "excused",
+            "present"
+        ]
+    },
+    {
+        "student_id": 674,
+        "class_id": 71,
+        "organization": 2,
+        "level": "intermediate",
+        "attended_statuses": [
+            "present",
+            "present",
+            "present",
+            "present",
+            "absent",
+            "excused"
+        ]
+    }
+]
