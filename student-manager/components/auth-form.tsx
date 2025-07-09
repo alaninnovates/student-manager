@@ -49,7 +49,7 @@ export function AuthForm({
                                             Login
                                         </Button>
                                         <p className="text-sm text-muted-foreground text-center">
-                                            Don't have an account?{' '}
+                                            Don&apos;t have an account?{' '}
                                             <a
                                                 href="/auth/signup"
                                                 className="text-blue-500 hover:underline"
