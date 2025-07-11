@@ -15,10 +15,18 @@ export async function login(formData: FormData) {
     };
 
     const { error } = await supabase.auth.signInWithPassword(data);
+    const { data: amIApproved, error: amIApprovedError } = await supabase.rpc(
+        'am_i_approved',
+    );
 
-    if (error) {
+    if (error || amIApprovedError) {
         console.log('Error logging in:', error);
         redirect('/');
+    }
+
+    if (!amIApproved) {
+        console.log('User is not approved');
+        redirect('/awaiting-approval');
     }
 
     // revalidatePath('/', 'layout');
@@ -36,10 +44,18 @@ export async function signup(formData: FormData) {
     };
 
     const { error } = await supabase.auth.signUp(data);
+    const { data: amIApproved, error: amIApprovedError } = await supabase.rpc(
+        'am_i_approved',
+    );
 
-    if (error) {
+    if (error || amIApprovedError) {
         console.log('Error signing up:', error);
         redirect('/');
+    }
+
+    if (!amIApproved) {
+        console.log('User is not approved');
+        redirect('/awaiting-approval');
     }
 
     // revalidatePath('/', 'layout');

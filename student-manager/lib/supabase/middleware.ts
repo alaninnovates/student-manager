@@ -42,7 +42,28 @@ export async function updateSession(request: NextRequest) {
     if (!user && request.nextUrl.pathname.startsWith('/dashboard')) {
         // no user, potentially respond by redirecting the user to the login page
         const url = request.nextUrl.clone();
+        url.pathname = '/auth/login';
+        return NextResponse.redirect(url);
+    }
+
+    const { data: amIApproved, error: amIApprovedError } = await supabase.rpc(
+        'am_i_approved',
+    );
+
+    if (amIApprovedError) {
+        console.error('Error checking approval status:', amIApprovedError);
+        const url = request.nextUrl.clone();
         url.pathname = '/';
+        return NextResponse.redirect(url);
+    }
+
+    if (
+        !amIApproved &&
+        user &&
+        !request.nextUrl.pathname.startsWith('/awaiting-approval')
+    ) {
+        const url = request.nextUrl.clone();
+        url.pathname = '/awaiting-approval';
         return NextResponse.redirect(url);
     }
 
