@@ -11,4 +11,8 @@ export const routes = [
         title: 'Student Merger',
         url: '/dashboard/merge',
     },
+    {
+        title: 'Approvals',
+        url: '/dashboard/approvals',
+    },
 ];
