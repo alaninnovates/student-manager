@@ -8,6 +8,13 @@ import {
 } from '@/components/ui/table';
 import { UserTableActions } from './user-table-actions';
 
+const censorEmail = (email: string) => {
+    const [localPart, domain] = email.split('@');
+    if (localPart.length <= 2) return email;
+    const censoredLocalPart = localPart[0] + '*'.repeat(localPart.length - 2);
+    return `${censoredLocalPart}@${domain}`;
+};
+
 export const UserTable = ({
     users,
     filter,
@@ -47,7 +54,11 @@ export const UserTable = ({
                     })
                     .map((user) => (
                         <TableRow key={user.id}>
-                            <TableCell>{user.email}</TableCell>
+                            <TableCell>
+                                {actionsEnabled
+                                    ? user.email
+                                    : censorEmail(user.email)}
+                            </TableCell>
                             <TableCell>
                                 {new Date(user.created_at).toLocaleString()}
                             </TableCell>
