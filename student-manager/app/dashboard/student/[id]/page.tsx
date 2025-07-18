@@ -3,10 +3,13 @@ import { ProgressBar } from './_components/progress-bar';
 import { createClient } from '@/lib/supabase/server';
 import { AttendedStatus } from '@/lib/types';
 import { MailIcon, PhoneIcon } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
+import { cn } from '@/lib/utils';
 
 interface Class {
     id: string;
     name: string;
+    level: string;
     startDate: Date;
     endDate: Date;
     attendance: {
@@ -65,6 +68,7 @@ export default async function StudentPage({
         return {
             id: classData.id,
             name: classData.name,
+            level: attendance.level,
             startDate: new Date(classData.dates[0]),
             endDate: new Date(classData.dates[classData.dates.length - 1]),
             attendance: attendanceCounts,
@@ -142,34 +146,52 @@ export default async function StudentPage({
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {Object.values(processedClasses).map((course) => (
-                    <Link
-                        key={course.id}
-                        href={`/dashboard/course/${course.id}`}
-                        className="bg-white shadow-md rounded-lg p-4"
-                    >
-                        <h2 className="text-lg font-semibold mb-2">
-                            {course.name}
-                        </h2>
-                        <p className="text-sm text-gray-600 mb-2">
-                            {course.startDate.toLocaleDateString()} -{' '}
-                            {course.endDate.toLocaleDateString()}
-                        </p>
-                        <div className="flex items-center justify-between mb-2">
-                            <span>Attendance:</span>
-                            <span>
-                                {course.attendance.present}/
-                                {course.attendance.late}/
-                                {course.attendance.absent +
-                                    course.attendance.excused}
-                            </span>
-                        </div>
-                        <ProgressBar
-                            attendance={course.attendance}
-                            totalLessons={course.totalLessons}
-                        />
-                    </Link>
-                ))}
+                {Object.values(processedClasses)
+                    .sort(
+                        (a, b) => b.startDate.getTime() - a.startDate.getTime(),
+                    )
+                    .map((course) => (
+                        <Link
+                            key={course.id}
+                            href={`/dashboard/course/${course.id}`}
+                            className="bg-white shadow-md rounded-lg p-4"
+                        >
+                            <div className="flex items-center justify-between mb-2">
+                                <h2 className="text-lg font-semibold mb-2">
+                                    {course.name}
+                                </h2>
+                                <Badge
+                                    className={cn('text-black', {
+                                        'bg-green-300':
+                                            course.level === 'beginner',
+                                        'bg-yellow-300':
+                                            course.level === 'intermediate',
+                                        'bg-red-300':
+                                            course.level === 'advanced',
+                                    })}
+                                >
+                                    {course.level}
+                                </Badge>
+                            </div>
+                            <p className="text-sm text-gray-600 mb-2">
+                                {course.startDate.toLocaleDateString()} -{' '}
+                                {course.endDate.toLocaleDateString()}
+                            </p>
+                            <div className="flex items-center justify-between mb-2">
+                                <span>Attendance:</span>
+                                <span>
+                                    {course.attendance.present}/
+                                    {course.attendance.late}/
+                                    {course.attendance.absent +
+                                        course.attendance.excused}
+                                </span>
+                            </div>
+                            <ProgressBar
+                                attendance={course.attendance}
+                                totalLessons={course.totalLessons}
+                            />
+                        </Link>
+                    ))}
             </div>
         </div>
     );
