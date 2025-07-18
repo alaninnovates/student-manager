@@ -15,6 +15,11 @@ export async function login(formData: FormData) {
     };
 
     const { error } = await supabase.auth.signInWithPassword(data);
+
+    if (error?.code === 'invalid_credentials') {
+        redirect('/auth/login?error=invalid_credentials');
+    }
+
     const { data: amIApproved, error: amIApprovedError } = await supabase.rpc(
         'am_i_approved',
     );
@@ -25,7 +30,6 @@ export async function login(formData: FormData) {
     }
 
     if (!amIApproved) {
-        console.log('User is not approved');
         redirect('/awaiting-approval');
     }
 
@@ -54,7 +58,6 @@ export async function signup(formData: FormData) {
     }
 
     if (!amIApproved) {
-        console.log('User is not approved');
         redirect('/awaiting-approval');
     }
 
