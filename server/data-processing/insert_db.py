@@ -89,7 +89,16 @@ def insert_attendance():
         with open(f"out/{file}", "r") as f:
             data = json.load(f)
             class_id = next(
-                (c["id"] for c in classes if c["name"] == data["class_name"]), None
+                (
+                    c["id"]
+                    for c in classes
+                    if (
+                        c["name"] == data["class_name"]
+                        and datetime.fromisoformat(c["dates"][0]).year
+                        == datetime.fromtimestamp(data["class_dates"][0]).year
+                    )
+                ),
+                None,
             )
             for student in data["students"]:
                 student_id = next(
